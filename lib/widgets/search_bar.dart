@@ -31,7 +31,7 @@ class SearchBar extends StatelessWidget {
             ),
             borderRadius: BorderRadius.circular(5.0),
           ),
-          hintText: "E.g: New York, United States",
+          hintText: "어디든지 가보세요",
           prefixIcon: Icon(
             Icons.location_on,
             color: Colors.blueGrey[300],

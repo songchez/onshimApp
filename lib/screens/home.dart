@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_travel_concept/util/places.dart';
 import 'package:flutter_travel_concept/widgets/horizontal_place_item.dart';
-import 'package:flutter_travel_concept/widgets/icon_badge.dart';
 import 'package:flutter_travel_concept/widgets/search_bar.dart';
 import 'package:flutter_travel_concept/widgets/vertical_place_item.dart';
 
@@ -9,22 +8,12 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        actions: <Widget>[
-          IconButton(
-            icon: IconBadge(
-              icon: Icons.notifications_none,
-            ),
-            onPressed: () {},
-          ),
-        ],
-      ),
       body: ListView(
         children: <Widget>[
           Padding(
             padding: EdgeInsets.all(20.0),
             child: Text(
-              "Where are you \ngoing?",
+              "어디로 여행하시나요?",
               style: TextStyle(
                 fontSize: 30.0,
                 fontWeight: FontWeight.w600,

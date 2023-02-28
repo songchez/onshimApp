@@ -19,6 +19,7 @@ class _MainScreenState extends State<MainScreen> {
         controller: _pageController,
         onPageChanged: onPageChanged,
         children: List.generate(4, (index) => Home()),
+        //TODO: 페이지연결
       ),
       bottomNavigationBar: BottomAppBar(
         child: Row(
