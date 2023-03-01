@@ -109,7 +109,9 @@ class Details extends StatelessWidget {
         child: Icon(
           Icons.airplanemode_active,
         ),
-        onPressed: () {},
+        onPressed: () {
+          Navigator.pop(context);
+        },
       ),
     );
   }

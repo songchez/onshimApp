@@ -28,7 +28,7 @@ class VerticalPlaceItem extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.all(1),
+                padding: EdgeInsets.only(left: 8, top: 3),
                 height: 80.0,
                 child: ListView(
                   primary: false,
@@ -40,19 +40,19 @@ class VerticalPlaceItem extends StatelessWidget {
                       child: Text(
                         "${place["name"]}",
                         style: TextStyle(
-                          fontWeight: FontWeight.w700,
-                          fontSize: 14.0,
+                          fontWeight: FontWeight.w800,
+                          fontSize: 17,
                         ),
                         maxLines: 2,
                         textAlign: TextAlign.left,
                       ),
                     ),
-                    SizedBox(height: 3.0),
+                    SizedBox(height: 2.0),
                     Row(
                       children: <Widget>[
                         Icon(
                           Icons.location_on,
-                          size: 13.0,
+                          size: 17,
                           color: Colors.blueGrey[300],
                         ),
                         SizedBox(width: 3.0),
@@ -62,7 +62,7 @@ class VerticalPlaceItem extends StatelessWidget {
                             "${place["location"]}",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 13.0,
+                              fontSize: 15,
                               color: Colors.blueGrey[300],
                             ),
                             maxLines: 1,
@@ -71,7 +71,7 @@ class VerticalPlaceItem extends StatelessWidget {
                         ),
                       ],
                     ),
-                    SizedBox(height: 10.0),
+                    SizedBox(height: 5),
                     Container(
                       alignment: Alignment.centerLeft,
                       child: Text(
