@@ -13,22 +13,23 @@ class VerticalPlaceItem extends StatelessWidget {
       padding: const EdgeInsets.only(bottom: 15.0),
       child: InkWell(
         child: Container(
-          height: 70.0,
-          child: Row(
+          child: Column(
             children: <Widget>[
-              ClipRRect(
-                borderRadius: BorderRadius.circular(5),
-                child: Image.asset(
-                  "${place["img"]}",
-                  height: 70.0,
-                  width: 70.0,
-                  fit: BoxFit.cover,
+              Container(
+                width: MediaQuery.of(context).size.width - 50,
+                height: MediaQuery.of(context).size.width - 50,
+                constraints: BoxConstraints(maxWidth: 500, maxHeight: 500),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(5),
+                  child: Image.asset(
+                    "${place["img"]}",
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
-              SizedBox(width: 15.0),
               Container(
+                padding: EdgeInsets.all(1),
                 height: 80.0,
-                width: MediaQuery.of(context).size.width - 130.0,
                 child: ListView(
                   primary: false,
                   physics: NeverScrollableScrollPhysics(),

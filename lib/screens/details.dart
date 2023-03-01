@@ -1,27 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_travel_concept/util/places.dart';
-import 'package:flutter_travel_concept/widgets/icon_badge.dart';
 
 class Details extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        leading: IconButton(
-          icon: Icon(
-            Icons.arrow_back,
-          ),
-          onPressed: () => Navigator.pop(context),
-        ),
-        actions: <Widget>[
-          IconButton(
-            icon: IconBadge(
-              icon: Icons.notifications_none,
-            ),
-            onPressed: () {},
-          ),
-        ],
-      ),
       body: ListView(
         children: <Widget>[
           SizedBox(height: 10.0),

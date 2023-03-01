@@ -1,11 +1,11 @@
 List places = [
   {
-    "name": "Hotel Dolah Amet & Suites",
+    "name": "리버사이드 호텔",
     "img": "assets/1.jpeg",
-    "price": r"$100/night",
+    "price": r"$100",
     "location": "London, England",
-    "details": "Pellentesque in ipsum id orci porta dapibus. "
-        "Nulla porttitor accumsan tincidunt. Donec rutrum "
+    "details": "리버사이드 호텔에 어서오세요! "
+        "강가에 위치한 리버사이드 호텔, 멋진 실내를 구경해보세요."
         "congue leo eget malesuada. "
         "\n\nPraesent sapien massa, convallis a pellentesque "
         "nec, egestas non nisi. Donec rutrum congue leo eget malesuada. "
@@ -17,7 +17,7 @@ List places = [
   {
     "name": "Beach Mauris Blandit",
     "img": "assets/2.jpeg",
-    "price": r"$100/night",
+    "price": r"$100",
     "location": "Lisbon, Portugal",
     "details": "Pellentesque in ipsum id orci porta dapibus. "
         "Nulla porttitor accumsan tincidunt. Donec rutrum "
@@ -32,7 +32,7 @@ List places = [
   {
     "name": "Ipsum Restaurant",
     "img": "assets/3.jpeg",
-    "price": r"$100/night",
+    "price": r"$100",
     "location": "Paris, France",
     "details": "Pellentesque in ipsum id orci porta dapibus. "
         "Nulla porttitor accumsan tincidunt. Donec rutrum "
@@ -47,7 +47,7 @@ List places = [
   {
     "name": "Curabitur Beach",
     "img": "assets/4.jpeg",
-    "price": r"$100/night",
+    "price": r"$100",
     "location": "Rome, Italy",
     "details": "Pellentesque in ipsum id orci porta dapibus. "
         "Nulla porttitor accumsan tincidunt. Donec rutrum "
