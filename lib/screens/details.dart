@@ -79,7 +79,7 @@ class Details extends StatelessWidget {
               Container(
                 alignment: Alignment.centerLeft,
                 child: Text(
-                  "Details",
+                  "상세설명",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 16,

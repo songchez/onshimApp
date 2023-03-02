@@ -15,7 +15,7 @@ class Home extends StatelessWidget {
               "어디로 여행하시나요?",
               style: TextStyle(
                 fontSize: 30.0,
-                fontWeight: FontWeight.w600,
+                fontWeight: FontWeight.w700,
               ),
             ),
           ),
