@@ -35,17 +35,26 @@ class VerticalPlaceItem extends StatelessWidget {
                   physics: NeverScrollableScrollPhysics(),
                   shrinkWrap: true,
                   children: <Widget>[
-                    Container(
-                      alignment: Alignment.centerLeft,
-                      child: Text(
-                        "${place["name"]}",
-                        style: TextStyle(
-                          fontWeight: FontWeight.w800,
-                          fontSize: 17,
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          child: Text(
+                            "${place["name"]}",
+                            style: TextStyle(
+                              fontWeight: FontWeight.w800,
+                              fontSize: 17,
+                            ),
+                            maxLines: 2,
+                            textAlign: TextAlign.left,
+                          ),
                         ),
-                        maxLines: 2,
-                        textAlign: TextAlign.left,
-                      ),
+                        Padding(
+                          padding: const EdgeInsets.only(right: 10),
+                          child: Text("★${place["star"]}"),
+                        )
+                      ],
                     ),
                     SizedBox(height: 2.0),
                     Row(

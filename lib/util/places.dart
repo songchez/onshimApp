@@ -4,6 +4,7 @@ List places = [
     "img": "assets/1.jpeg",
     "price": "250,000원/박",
     "location": "경기도, 파주",
+    "star": 4.5,
     "details": "리버사이드 호텔에 어서오세요! "
         "강가에 위치한 리버사이드 호텔, 멋진 실내를 구경해보세요."
         "congue leo eget malesuada. "
@@ -19,6 +20,7 @@ List places = [
     "img": "assets/2.jpeg",
     "price": "250,000원/박",
     "location": "Lisbon, Portugal",
+    "star": 4.5,
     "details": "Pellentesque in ipsum id orci porta dapibus. "
         "Nulla porttitor accumsan tincidunt. Donec rutrum "
         "congue leo eget malesuada. "
@@ -34,6 +36,7 @@ List places = [
     "img": "assets/3.jpeg",
     "price": "250,000원/박",
     "location": "Paris, France",
+    "star": 4.5,
     "details": "Pellentesque in ipsum id orci porta dapibus. "
         "Nulla porttitor accumsan tincidunt. Donec rutrum "
         "congue leo eget malesuada. "
@@ -49,6 +52,7 @@ List places = [
     "img": "assets/4.jpeg",
     "price": "250,000원/박",
     "location": "Rome, Italy",
+    "star": 4.5,
     "details": "Pellentesque in ipsum id orci porta dapibus. "
         "Nulla porttitor accumsan tincidunt. Donec rutrum "
         "congue leo eget malesuada. "
@@ -64,6 +68,7 @@ List places = [
     "img": "assets/5.jpeg",
     "price": "250,000원/박",
     "location": "Madrid, Spain",
+    "star": 4.5,
     "details": "Pellentesque in ipsum id orci porta dapibus. "
         "Nulla porttitor accumsan tincidunt. Donec rutrum "
         "congue leo eget malesuada. "
